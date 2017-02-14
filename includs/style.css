@@ -550,7 +550,7 @@ ul.topnav li.icon {
 	
     position: absolute;
    box-shadow: 0px 7px 6px #888888;
-    top: 420px;
+    top: 186px;
     right: 139px;
 	padding-right:3px;
 	
@@ -603,6 +603,18 @@ background-repeat:no-repeat;
 	color:#080707;
 }
 
+.model{
+	
+}
+.price{
+	
+}
+.is_optic{
+	
+}
+.is_poleroid{
+	
+}
 #itemsP body{
 	background-color:#0A0909;
 	height:100%;
@@ -612,7 +624,7 @@ background-repeat:no-repeat;
 .content{
     position:relative;
     padding-bottom: 192px;   
-	height: 759px;	
+	height: 528px;	
 	background: url(../images/man_in_glasses_home1.jpg) no-repeat center center ;
 	background-size:cover;
    
@@ -637,10 +649,30 @@ background-repeat:no-repeat;
 	border-left: 1px solid #C8C8C8;
 
 }
-.item{
-	height: 111px;
-	width: 172px;
-}
+ .glass_item{
+    	width:100%;
+    	height:100%;
+    	background-size: 100% 100%;
+    }
+ #wrap {
+      overflow: hidden;
+    }
+    .box {
+      width: 20%;
+      padding-bottom: 20%;
+      
+      position: relative;
+      float: left;
+    }
+    .innerContent {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      
+      padding: 10px;
+    }
 .item_black_square{
 
 	background-image: url(../images/glasses_black_square.png);
@@ -705,11 +737,67 @@ background-repeat:no-repeat;
 	opacity: 0.8;
 }
 
+    @media only screen and (max-width : 650px) {
+      /* Tablet view: 2 tiles */
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+      }
+      
+.item_collection{ 
+	width:82%;
+	margin-left: 170px;
+	height: 1518px;
+	background-color:#E3E3E3;
+	background-image: url(../images/items_background.jpg);
+	background-repeat: no-repeat;
+}
+    }
+    @media only screen and (max-width : 1178px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+         width: 32.3%;
+   		 padding-bottom: 17.3%;
+      }
+      
+.item_collection{ 
+	width:82%;
+	margin-left: 170px;
+	height: 654px;
+	background-color:#E3E3E3;
+	background-image: url(../images/items_background.jpg);
+	background-repeat: no-repeat;
+}
+#itemsP footer{
+	padding-top:500px;
+	right:0%;
+	left:0%;
+	bottom:0px;
+	margin:0 auto;
+	height:192px;
+	background-color: #0A0909;
+}
+
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1178px ) {
+      /* Medium desktop: 4 tiles */
+      .box {
+        width: 18%;
+        height:13%;
+        padding-bottom: 111px;
+        padding-left: 16px;
+      }
+    }
+    
+    
+    
+    
+    
 
 
-
-@media (max-width:1269px){
 /*
+@media (max-width:1269px){
+
 .lightbox{
 	
     position: absolute;
@@ -781,7 +869,7 @@ background-repeat:no-repeat;
 	background-size:cover;
    
 }
-*/
+
 .item_collection{ 
 	width:82%;
 	margin-left: 170px;
@@ -803,22 +891,7 @@ background-repeat:no-repeat;
 	border-right: 1px solid #C8C8C8;
 
 }
-.item{
-	height: 108px;
-	width: 169px;
-}
-.item_black_square{
 
-	background-image: url(../images/glasses_black_square.png);
-}
-.item_black_round{
-	
-	background-image:  url(../images/glasses_black_round.png);
-}
-.item_brown{
-
-	background-image:  url(../images/glasses_brown.png);
-}
 
 .glasses_content{
 	position:absolute;
@@ -875,4 +948,4 @@ background-repeat:no-repeat;
 	opacity: 0.8;
 }
 
-
+*/
